@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="7" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-31T18:30:11 IST" name="Suite" finished-at="2023-12-31T18:30:34 IST" duration-ms="23657">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidation.LoginErrorValidation()[pri:0, instance:SeleniumFrameworkPOM.Test.ErrorValidation@34f22f9d]" name="LoginErrorValidation" class="SeleniumFrameworkPOM.Test.ErrorValidation"/>
+      </group> <!-- ErrorHandling -->
+      <group name="purchase">
+        <method signature="submitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:SeleniumFrameworkPOM.Test.submitOrderTest@38089a5a]" name="submitOrder" class="SeleniumFrameworkPOM.Test.submitOrderTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2023-12-31T18:30:11 IST" name="Error Validation Test" finished-at="2023-12-31T18:30:33 IST" duration-ms="21949">
+      <class name="SeleniumFrameworkPOM.Test.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFrameworkPOM.Test.ErrorValidation@34f22f9d]" started-at="2023-12-31T18:30:11 IST" name="launchApplication" finished-at="2023-12-31T18:30:21 IST" duration-ms="9864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:SeleniumFrameworkPOM.Test.ErrorValidation@34f22f9d]" started-at="2023-12-31T18:30:21 IST" name="LoginErrorValidation" finished-at="2023-12-31T18:30:22 IST" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFrameworkPOM.Test.ErrorValidation@34f22f9d]" started-at="2023-12-31T18:30:22 IST" name="tearDown" finished-at="2023-12-31T18:30:22 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFrameworkPOM.Test.ErrorValidation@34f22f9d]" started-at="2023-12-31T18:30:22 IST" name="launchApplication" finished-at="2023-12-31T18:30:24 IST" duration-ms="2366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method retried="true" signature="productErrorValidation()[pri:0, instance:SeleniumFrameworkPOM.Test.ErrorValidation@34f22f9d]" started-at="2023-12-31T18:30:24 IST" name="productErrorValidation" finished-at="2023-12-31T18:30:27 IST" duration-ms="3040" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at SeleniumFrameworkPOM.Test.ErrorValidation.productErrorValidation(ErrorValidation.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFrameworkPOM.Test.ErrorValidation@34f22f9d]" started-at="2023-12-31T18:30:27 IST" name="tearDown" finished-at="2023-12-31T18:30:27 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFrameworkPOM.Test.ErrorValidation@34f22f9d]" started-at="2023-12-31T18:30:27 IST" name="launchApplication" finished-at="2023-12-31T18:30:30 IST" duration-ms="2393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidation()[pri:0, instance:SeleniumFrameworkPOM.Test.ErrorValidation@34f22f9d]" started-at="2023-12-31T18:30:30 IST" name="productErrorValidation" finished-at="2023-12-31T18:30:33 IST" duration-ms="3034" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at SeleniumFrameworkPOM.Test.ErrorValidation.productErrorValidation(ErrorValidation.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:249)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFrameworkPOM.Test.ErrorValidation@34f22f9d]" started-at="2023-12-31T18:30:33 IST" name="tearDown" finished-at="2023-12-31T18:30:33 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumFrameworkPOM.Test.ErrorValidation -->
+    </test> <!-- Error Validation Test -->
+    <test started-at="2023-12-31T18:30:11 IST" name="Submit Order Test" finished-at="2023-12-31T18:30:34 IST" duration-ms="23657">
+      <class name="SeleniumFrameworkPOM.Test.submitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFrameworkPOM.Test.submitOrderTest@38089a5a]" started-at="2023-12-31T18:30:11 IST" name="launchApplication" finished-at="2023-12-31T18:30:21 IST" duration-ms="9561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SeleniumFrameworkPOM.Test.submitOrderTest@38089a5a]" started-at="2023-12-31T18:30:21 IST" name="submitOrder" data-provider="getData" finished-at="2023-12-31T18:30:25 IST" duration-ms="4076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Rohit@00, email=rohitp@1gmail.com, productName=IPHONE 13 PRO}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFrameworkPOM.Test.submitOrderTest@38089a5a]" started-at="2023-12-31T18:30:25 IST" name="tearDown" finished-at="2023-12-31T18:30:25 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFrameworkPOM.Test.submitOrderTest@38089a5a]" started-at="2023-12-31T18:30:25 IST" name="launchApplication" finished-at="2023-12-31T18:30:27 IST" duration-ms="2126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:SeleniumFrameworkPOM.Test.submitOrderTest@38089a5a]" started-at="2023-12-31T18:30:27 IST" name="submitOrder" data-provider="getData" finished-at="2023-12-31T18:30:31 IST" duration-ms="3810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Pardeshi#0101, email=pardeshi@99gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFrameworkPOM.Test.submitOrderTest@38089a5a]" started-at="2023-12-31T18:30:31 IST" name="tearDown" finished-at="2023-12-31T18:30:31 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFrameworkPOM.Test.submitOrderTest@38089a5a]" started-at="2023-12-31T18:30:31 IST" name="launchApplication" finished-at="2023-12-31T18:30:33 IST" duration-ms="2030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:SeleniumFrameworkPOM.Test.submitOrderTest@38089a5a]" started-at="2023-12-31T18:30:33 IST" name="orderHistoryTest" finished-at="2023-12-31T18:30:34 IST" depends-on-methods="SeleniumFrameworkPOM.Test.submitOrderTest.submitOrder" duration-ms="1612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFrameworkPOM.Test.submitOrderTest@38089a5a]" started-at="2023-12-31T18:30:34 IST" name="tearDown" finished-at="2023-12-31T18:30:34 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumFrameworkPOM.Test.submitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>

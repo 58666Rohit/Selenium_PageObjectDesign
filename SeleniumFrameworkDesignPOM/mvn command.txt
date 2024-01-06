@@ -1,0 +1,13 @@
+RUN SELENIUM SCRIPT THROUGH MAVEN COMMANDS:
+------------------------------------------
+
+cmd -> mvn test -PRegression 
+P=> Profile
+
+cmd -> mvn test -PRegression -Dbrowser=Firefox
+D=> maven parameter
+
+*************************************************************
+JENKINS:
+
+->java -jar jenkins.war -httpPort = 8080
